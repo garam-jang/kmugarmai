@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알아가람_Music</title>
+    <style>
+
+        body{
+            margin: 0 auto;
+            background-color: white;
+            font-family: "Avenir Next LT Pro Demi", "Bahnschrift SemiBold", sans-serif ;
+            font-size: 14pt;
+            color: black;
+        }
+
+        a
+        {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+        
+        #wrapper
+        {
+            background-color: skyblue;
+        }
+
+        #header
+        {
+            color:black;
+            overflow:hidden;
+            background-size: 100%;
+            text-align: center;
+            position: relative;
+            width:500px;
+            margin: 0 auto;
+            padding: 2em 0em;
+            height: 100px;
+        }
+
+        #header a
+        {
+            color:black;
+        }
+
+        #main_title h1
+        {
+            letter-spacing: 0.05em;
+            font-size: 30pt;
+        }
+
+        #navigation{
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        #navigation ul{
+            margin: 0;
+            padding: 0px;
+            line-height: normal;
+            text-align: center;
+        }
+
+        #navigation ul li{
+            display: inline-block;
+        }
+
+        #navigation ul li a {
+            display: block;
+            letter-spacing: 1px;
+            padding: 0px 40px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.80em;
+            border: none;
+            line-height: 80px;
+        }
+
+        .click:hover{
+            background-color: rgb(248, 248, 248);
+        }
+
+        .current_page{
+            background-color: rgb(248, 248, 248);
+        }
+
+        #banner{
+            overflow: hidden;
+            height: 450px;
+            background:url(image/banner_music.jpg) no-repeat center;
+            background-size:cover;
+        }
+
+        #content{
+            background-color: white;
+            overflow: hidden;
+            font-family:나눔고딕,굴림;
+            margin-bottom: 50px;
+        }
+
+        #title h2{
+            text-align: center;
+            color: rgb(102, 192, 228);
+            font-size: 30pt;
+            line-height: 25pt;
+            font-family: "Avenir Next LT Pro Demi", "Bahnschrift SemiBold", sans-serif ;
+        }
+
+        #coulmn{
+            margin: 1%;
+            padding: 3em 0em;
+            height: 800px;
+            float: right;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+        #column_title h2{
+            text-align: center;
+            color:rgb(102, 192, 228);
+            font-size: 20pt;
+            padding-top: 10px;
+        }
+
+        #column h5{
+            font-size: 14pt;
+            text-align: center;
+        }
+        #container video{
+            margin-left: 36.7%;
+        }
+        #footer{
+            overflow: hidden;
+            padding: 2em 0em;
+            background-color: skyblue;
+        }
+
+        #footer p{
+            letter-spacing: 0.20em;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 10pt;
+        }
+
+    </style>
+</head>
+ <body>
+    <div id= "wrapper">
+        <div id="header">
+            <div id="main_title">
+            <h1><a href="index.html">Garam's Homepage</a></h1></div>
+            <p>Welcome To My World!</p>
+            </div>
+        </div>
+        
+        <div id="navigation">
+            <ul>
+                <li class="click"><a href="index.html">Main</a></li>
+                <li class="click"><a href="knowledge.html">Knowledge</a></li>
+                <li class="click"><a href="trend.html">Trend Note</a></li>
+                <li class="current_page click"><a href="music.html">Music</a></li>
+            </ul>
+        </div>
+    <div id="banner"></div>
+    <hr>
+    <div id="content">
+        <div id="title">
+            <h2>Playlist</h2>
+            <h5 style="text-align: center;"> 장가람의 몰래몰래 아껴듣는 노래들만 모아놨습니다.</h5>
+            </div>
+            <hr>
+        
+        <div id="column">
+            <div id="column_title">
+                <h2>오존 (O3ohn) - 우리 사이 은하수를 만들어</h2>
+            </div>
+            <div id="container">
+            <video controls idth="400px" height="400px"><source src="video/video2.mp4"/></video>
+            </div>
+            <h5> 작사: Kako | 작곡: Curtis F, Kako | 2019-06-07</h5>
+            <br>
+        </div>
+        <hr>
+        <div id="column">
+            <div id="column_title">
+                <h2>Zion.T - 미안해 (Feat. Beenzino)</h2>
+            </div>
+            <div id="container">
+            <video controls idth="400px" height="400px"><source src="video/video3.mp4"/></video>
+            </div>
+            <h5> 작사: Zion.T, 빈지노 (Beenzino) | PEEJAY, Zion.T, 서원진 | 2017-02-01</h5>
+            <br>
+        </div>
+        <hr>
+        <div id="column">
+            <div id="column_title">
+                <h2>토이 - U & I (With Crush & 빈지노)</h2>
+            </div>
+            <div id="container">
+            <video controls idth="400px" height="400px"><source src="video/video4.mp4"/></video>
+            </div>
+            <h5> 작사: 토이 | 작곡: 토이 | 2014-11-18</h5>
+            <br>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p> &copy; Jang Garam | Email: riverful123.kookmin.ac.kr | 2021-06-12 </p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알아가람</title>
+    <style>
+      
+        body{
+            margin: 0 auto;
+            background-color: white;
+            font-family: "Avenir Next LT Pro Demi", "Bahnschrift SemiBold", sans-serif ;
+            font-size: 14pt;
+            color: black;
+        }
+
+        a
+        {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+        
+        #wrapper
+        {
+            background-color: skyblue;
+        }
+
+        #header
+        {
+            color:black;
+            overflow:hidden;
+            background-size: 100%;
+            text-align: center;
+            position: relative;
+            width:500px;
+            margin: 0 auto;
+            padding: 2em 0em;
+            height: 100px;
+        }
+
+        #header a
+        {
+            color:black;
+        }
+
+        #main_title h1
+        {
+            letter-spacing: 0.05em;
+            font-size: 30pt;
+        }
+
+        #navigation{
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        #navigation ul{
+            margin: 0;
+            padding: 0px;
+            line-height: normal;
+            text-align: center;
+        }
+
+        #navigation ul li{
+            display: inline-block;
+        }
+
+        #navigation ul li a {
+            display: block;
+            letter-spacing: 1px;
+            padding: 0px 40px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.80em;
+            border: none;
+            line-height: 80px;
+        }
+
+        .click:hover{
+            background-color: rgb(248, 248, 248);
+        }
+
+        .current_page{
+            background-color: rgb(248, 248, 248);
+        }
+
+        #banner{
+            overflow: hidden;
+            height: 450px;
+            background:url(image/banner.jpg) no-repeat center;
+            background-size:cover;
+        }
+
+        #content
+        {
+            background-color: white;
+            overflow: hidden;
+            padding: 2em;
+            height: 1300px;
+        }
+
+        #warp{
+            overflow: hidden;
+            height:300px;
+        }
+        
+        #aside{
+            width: 350px;
+            float: left;
+        }
+
+        #aside h1{
+            color:rgb(102, 192, 228);
+            text-transform: uppercase;
+            padding: 0px 30px;
+            text-align: left;
+        }
+
+        #aside ul li{
+            display: block;
+        }
+
+        #aside ul li a {
+            letter-spacing: 1px;
+            padding: 0px 0px;
+            font-size: 1,5em;
+            border: none;
+            line-height: 50px;
+            text-align: left;
+        }
+
+        #section{
+            width: 800px;
+            float: left;
+        }
+
+        #section h1{
+            color:rgb(102, 192, 228);
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        #my_pic
+        {
+            overflow: hidden;
+            height: 200px;
+            width: 200px;
+            float: left;
+            background:url(image/my_pic.PNG) no-repeat center;
+            background-size:cover;
+        }
+
+        #about_me{
+            width: 550px;
+            float:right;
+            letter-spacing: 2px;
+            line-height: 18pt;
+            text-align: left;
+        }
+
+        #about_me_p{ color: rgb(102, 192, 228);}
+
+        #portfoli{ 
+            overflow: hidden;
+            margin-top: 20px;
+            height: 400;
+            }
+
+        #portfoli h1{
+            text-align: center;
+            color: rgb(102, 192, 228);
+        }   
+
+        #portfoli .title h2{
+            font-size: 1.5em;
+            color:black;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        #box1, #box2, #box3, #box4{
+            width: 18%;
+            box-sizing: border-box;
+            float: left;
+            margin-left: 85px;
+        }
+
+        .image{
+            display: inline-block;
+            width: 100%;
+        }
+
+        .image img{
+            display: block;
+            width: 100%;
+        }
+
+        #sub_content{
+            text-align: center;
+            color: rgb(102, 192, 228);
+            font-size: 20pt;
+            line-height: 25pt;
+        }
+
+        #footer{
+            overflow: hidden;
+            padding: 2em 0em;
+            background-color: skyblue;
+        }
+
+        #footer p{
+            letter-spacing: 0.20em;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 10pt;
+        }
+
+    </style>
+</head>
+<body>
+    <div id= "wrapper">
+        <div id="header">
+        <div id="main_title">
+        <h1><a href="easteregg.html">Garam's Homepage</a></h1></div>
+        <p>Welcome To My World!</p>
+        </div>
+    </div>
+    
+    <div id="navigation">
+        <ul>
+            <li class="current_page click"><a href="index.html">Main</a></li>
+            <li class="click"><a href="knowledge.html">Knowledge</a></li>
+            <li class="click"><a href="trend.html">Trend Note</a></li>
+            <li class="click"><a href="music.html">Music</a></li>
+        </ul>
+    </div>
+
+    <div id="banner"></div>
+
+<div id="content">
+    <hr>
+    <div id="warp">
+        <div id="aside">
+            <h1>Contact Me</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100004439685115">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ramramgramgram/">Instagram</a></li>
+                <li><a href="https://blog.naver.com/riverful123">Blog</a></li>
+            </ul>
+        </div>
+
+        <div id="section">
+            <h1>About me</h1>
+            <div id="my_pic"></div>
+            <div id="about_me">
+                <p> Name: Garam Jang
+                <br> Birth: 2001-11-16
+                <br> MBTI: ISFJ 
+                <br>Hobby: Listen Music, Watch Movie</p>
+                <p id="about_me_p"> 
+                    I hope many people get to know me 
+                    <br>through this homepage.
+                    <br>If you want to contact me, feel free to contact me!</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="portfoli">
+        <h1> Precious Moments</h1>
+        <div id="box1">
+            <div class="title">
+                <h2>Childhood</h2>
+            </div>
+            <br>
+            <a class="image"><img src="image/childhood.jpg" alt="다른 인터넷창을 사용해주세요"></a>
+        </div>
+        <div id="box2">
+            <div class="title">
+                <h2>In the Han river</h2>
+            </div>
+            <br>
+            <a  class="image"><img src="image/me.jpg" alt="다른 인터넷창을 사용해주세요"></a>
+        </div>
+        <div id="box3">
+            <div class="title">
+                <h2>High School Freinds</h2>
+            </div>
+            <br>
+            <a  class="image"><img src="image/freinds.jpg" alt="다른 인터넷창을 사용해주세요"></a>
+        </div>
+        <div id="box4">
+            <div class="title">
+                <h2>College Freinds</h2>
+            </div>
+            <br>
+            <a class="image"><img src="image/college.jpg" alt="다른 인터넷창을 사용해주세요"></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="sub_content">
+       <h2>"<br><br>Only I can change my life <br>
+            No one can do it for me<br><br>"</h2>
+        <br>
+        <h5 style="font-family: 나눔고딕, 굴림;">Look for hidden Easter eggs on the website!
+        <br><small><small>Hint: Click the Main title</small></small> </h5>
+    </div>
+</div>
+
+<div id="footer">
+    <p> &copy; Jang Garam | Email: riverful123.kookmin.ac.kr | 2021-06-12 </p>
+</div>
+
+</body>
+</html>
